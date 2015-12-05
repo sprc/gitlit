@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier opf:scheme="uuid" id="uuid_id">zz123</dc:identifier>
+    <dc:title>gitlit</dc:title>
+    <dc:creator opf:file-as="Unknown" opf:role="aut">Clinton Sprain</dc:creator>
+    <dc:language>eng</dc:language>
+    <meta name="cover" content="id3"/>
+  </metadata>
+  <manifest>
+    <item href="text/cover.html" id="id4" media-type="application/xhtml+xml"/>
+    <item href="start.xhtml" id="start" media-type="application/xhtml+xml"/>
+    <item href="text/prelude.html" id="id" media-type="application/xhtml+xml"/>
+    <item href="text/1.html" id="id1" media-type="application/xhtml+xml"/>
+    <item href="text/epilogue.html" id="id2" media-type="application/xhtml+xml"/>
+    <item href="pillars-of-creation.jpg" id="id3" media-type="image/jpeg"/>
+  </manifest>
+  <spine>
+    <itemref idref="id4"/>
+    <itemref idref="start"/>
+    <itemref idref="id"/>
+    <itemref idref="id1"/>
+    <itemref idref="id2"/>
+  </spine>
+  <guide>
+    <reference href="pillars-of-creation.jpg" type="cover"/>
+  </guide>
+</package>
